@@ -1,0 +1,85 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .tarjeta {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      width: 300px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column; 
+      gap: 15px; 
+    }
+
+    .perfil-header {
+      display: flex; 
+      align-items: center; 
+      gap: 15px;
+    }
+
+    .perfil-header img {
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+    }
+
+    .bio {
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    .estadisticas {
+      display: flex; 
+      justify-content: space-between; 
+      text-align: center;
+    }
+
+    .estadisticas div {
+      flex: 1; 
+    }
+
+    .estadisticas span {
+      display: block;
+      font-weight: bold;
+    }
+
+    .botones {
+      display: flex; 
+      justify-content: center; 
+    }
+
+    .botones button {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .seguir {
+      background: #54239f;
+      color: white;
+    }
+
+    .mensaje {
+      background: #e5e7eb;
+    }
+
+    .miniaturas {
+      display: flex; 
+      flex-wrap: wrap; 
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .miniaturas img {
+      width: 30%;
+      border-radius: 10px;
+    }
